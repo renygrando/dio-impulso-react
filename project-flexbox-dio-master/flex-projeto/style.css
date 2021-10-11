@@ -18,10 +18,11 @@ body {
   display: flex;
   justify-content: space-between;
   align-items: center;
-  background: #eeeeee;
+  background: #eaf3fa;
 }
 .header__title {
   font-size: 2em;
+  color: #2a4791;
 }
 .header__list {
   display: flex;
@@ -33,5 +34,69 @@ body {
 }
 .header__link {
   text-decoration: none;
-  color: orange;
+  color: #f78d49;
+}
+
+.main {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  text-align: center;
+  margin-top: 3em;
+  color: #2a4791;
+}
+
+.main__header {
+  margin-bottom: 1em;
+}
+
+.main__h1 {
+  font-size: 2em;
+}
+.main__p {
+  font-size: 1em;
+}
+.main__a {
+  text-decoration: none;
+  color: #f78d49;
+}
+
+.quemsomos {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  color: #2a4791;
+}
+
+.quemsomos__h2 {
+  font-size: 1.5em;
+}
+
+.quemsomos__p {
+  font-size: 1em;
+  margin-top: 1em;
+}
+
+.servicos__h2 {
+  color: #2a4791;
+}
+.servicos__header {
+  margin-bottom: 2em;
+}
+.servicos__list {
+  background: #2a4791;
+  padding: 3em;
+  display: flex;
+  justify-content: space-around;
+  margin-bottom: 3em;
+  text-align: center;
+}
+.servicos__p {
+  color: #ffffff;
+  margin-top: 3em;
+  font-size: 1em;
+}
+.servicos__a {
+  text-decoration: underline;
+  color: #f78d49;
 }
